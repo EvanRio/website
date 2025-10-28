@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio – LOCYZZ</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="pp.png">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="nav">
+    <div class="nav-inner glass">
+      <div class="brand">Portfolio</div>
+      <!-- Hamburger -->
+      <div class="menu-toggle" id="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <!-- Navigation links -->
+      <nav class="nav-links" id="nav-links">
+    <a href="#accueil">Accueil</a>
+    <a href="#reseaux" class="nav-highlight">Réseaux</a>
+    <a href="#competences" class="nav-highlight">Compétences</a>
+    <a href="#projets">Projets</a>
+        <!-- BB-8 Toggle dans le menu mobile -->
+        <div class="mobile-toggle">
+          <label class="bb8-toggle" title="Mode clair / sombre">
+            <input class="bb8-toggle__checkbox" id="themeCheckboxMobile" type="checkbox" />
+            <div class="bb8-toggle__container">
+              <div class="bb8-toggle__scenery">
+                <div class="bb8-toggle__star"></div>
+                <div class="bb8-toggle__star"></div>
+                <div class="bb8-toggle__star"></div>
+                <div class="bb8-toggle__star"></div>
+                <div class="bb8-toggle__star"></div>
+                <div class="bb8-toggle__star"></div>
+                <div class="bb8-toggle__star"></div>
+                <div class="tatto-1"></div>
+                <div class="tatto-2"></div>
+                <div class="gomrassen"></div>
+                <div class="hermes"></div>
+                <div class="chenini"></div>
+                <div class="bb8-toggle__cloud"></div>
+                <div class="bb8-toggle__cloud"></div>
+                <div class="bb8-toggle__cloud"></div>
+              </div>
+              <div class="bb8">
+                <div class="bb8__head-container">
+                  <div class="bb8__antenna"></div>
+                  <div class="bb8__antenna"></div>
+                  <div class="bb8__head"></div>
+                </div>
+                <div class="bb8__body"></div>
+              </div>
+              <div class="artificial__hidden">
+                <div class="bb8__shadow"></div>
+              </div>
+            </div>
+          </label>
+        </div>
+      </nav>
+      <!-- BB-8 Toggle (uniquement visible sur mobile) -->
+      <div class="theme-toggle">
+        <label class="bb8-toggle" title="Mode clair / sombre">
+          <input class="bb8-toggle__checkbox" id="themeCheckbox" type="checkbox" />
+          <div class="bb8-toggle__container">
+            <div class="bb8-toggle__scenery">
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="tatto-1"></div>
+              <div class="tatto-2"></div>
+              <div class="gomrassen"></div>
+              <div class="hermes"></div>
+              <div class="chenini"></div>
+              <div class="bb8-toggle__cloud"></div>
+              <div class="bb8-toggle__cloud"></div>
+              <div class="bb8-toggle__cloud"></div>
+            </div>
+            <div class="bb8">
+              <div class="bb8__head-container">
+                <div class="bb8__antenna"></div>
+                <div class="bb8__antenna"></div>
+                <div class="bb8__head"></div>
+              </div>
+              <div class="bb8__body"></div>
+            </div>
+            <div class="artificial__hidden">
+              <div class="bb8__shadow"></div>
+            </div>
+          </div>
+        </label>
+      </div>
+    </div>
+  </header>
+  <!-- HERO -->
+  <main id="accueil" class="wrap">
+    <section class="hero">
+      <!-- Bloc gauche -->
+      <div class="hero-card glass">
+        <span class="tag">Student · 2025</span>
+        <h1 class="hero-title"><span class="shine">Salut, je suis LOCYZZ</span></h1>
+        <h2 class="hero-sub">Étudiants en BUT Informatique</h2>
+        <p class="hero-text">
+          Je conçois des projets mêlant graphisme, web et montage vidéo, avec un style moderne et fluide qui reflète ma créativité.
+        </p>
+        <div class="cta">
+          <a class="btn" href="#reseaux">Mes réseaux</a>
+          <a class="btn ghost" href="#projets">Voir mes projets</a>
+        </div>
+      </div>
+      <!-- Bloc droit -->
+      <div class="hero-side">
+  <div class="profile-card glass fade-scroll">
+    <img class="avatar" src="logo.png" alt="Photo de LOCYZZ" />
+    <h3 class="profile-name">LOCYZZ</h3>
+    <p class="muted">Français</p>
+    <div class="skills">
+      <span class="badge">Graphiste</span>
+      <span class="badge">Développeur</span>
+      <span class="badge">Monteur</span>
+    </div>
+
+    <!-- Bouton GitHub -->
+    <a href="https://github.com/Locyzz" target="_blank" class="github-btn-glass">
+      <svg class="github-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 
+        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
+        -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78
+        -.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 
+        0 0 .67-.21 2.2.82A7.56 7.56 0 0 1 8 4.81c.68.003 1.36.092 2 .27 
+        1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 
+        1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 
+        0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 
+        8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+      </svg>
+      Mon GitHub
+    </a>
+  </div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- RÉSEAUX -->
+    <section id="reseaux" class="section">
+      <h2 class="section-title">Mes réseaux</h2>
+      <div class="grid">
+        <a class="card glass" href="https://youtube.com/@LOCYZZ/?sub_confirmation=1" target="_blank">
+          <img src="youtube.png" alt="YouTube" class="card-logo" />
+          <div class="card-body"><h3>YouTube</h3><p class="muted">Abonne-toi 🎥</p></div>
+        </a>
+        <a class="card glass" href="https://discord.com/invite/ZnHgH266er" target="_blank">
+          <img src="discord.png" alt="Discord" class="card-logo" />
+          <div class="card-body"><h3>Discord</h3><p class="muted">Rejoins la commu 💬</p></div>
+        </a>
+        <a class="card glass" href="https://www.tiktok.com/@locyzz.yt" target="_blank">
+          <img src="tiktok.png" alt="TikTok" class="card-logo" />
+          <div class="card-body"><h3>TikTok</h3><p class="muted">Clips & highlights ⚡</p></div>
+        </a>
+        <a class="card glass" href="https://www.instagram.com/locyzz_life" target="_blank">
+          <img src="instagram.png" alt="Instagram" class="card-logo" />
+          <div class="card-body"><h3>Instagram</h3><p class="muted">Shots & stories 📸</p></div>
+        </a>
+      </div>
+    </section>
+    <!-- COMPÉTENCES -->
+<section id="competences" class="section">
+  <h2 class="section-title">Compétences</h2>
+  <div class="skills-grid">
+    <div class="skill-card glass fade-scroll">
+      <a href="https://locyzz.github.io/gfx/" class="skill-overlay" target="_blank"></a>
+      <h3>🎨 Graphisme</h3>
+      <p>Utilisation de Photoshop et Canva</p>
+    </div>
+    <div class="skill-card glass fade-scroll">
+      <h3>💻 Développement Web</h3>
+      <p>Avec comme langage HTML et CSS</p>
+    </div>
+    <div class="skill-card glass fade-scroll">
+      <a href="https://youtu.be/eKOPiM37R58" class="skill-overlay" target="_blank"></a>
+      <h3>🎬 Montage vidéo</h3>
+      <p>Utilisation de CapCut</p>
+    </div>
+    <div class="skill-card glass fade-scroll">
+      <h3>🤖 Développement Python</h3>
+      <p>Création de bot Discord</p>
+    </div>
+    <div class="skill-card glass fade-scroll">
+      <h3>📝 Maquettage web</h3>
+      <p>Utilisation de Figma</p>
+    </div>
+    <div class="skill-card glass fade-scroll">
+      <a href="https://youtube.com/@LOCYZZ/?sub_confirmation=1" class="skill-overlay" target="_blank"></a>
+      <h3>🧠 Création de contenu</h3>
+      <p>Anciennement créateur de contenu sur Youtube et TikTok principalement</p>
+    </div>
+  </div>
+</section>
+    <!-- PROJETS -->
+    <section id="projets" class="section">
+      <h2 class="section-title">Projets</h2>
+      <div class="projects">
+        <article class="project-card glass fade-scroll">
+          <img src="Studiz.png" alt="Image du logo de studiz" />
+          <div class="project-body">
+            <h3>Studiz</h3>
+            <p class="muted">Studiz est une application mobile qui aide les étudiants à organiser leurs cours, devoirs et notes grâce à un calendrier intelligent et une interface simple et intuitive.</p>
+            <a class="btn project-link" href="https://studiz.fun/">Voir le projet</a>
+          </div>
+        </article>
+        <article class="project-card glass fade-scroll">
+          <img src="exemple.png" alt="Projet 2" />
+          <div class="project-body">
+            <h3>Futur emplacement</h3>
+            <p class="muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <a class="btn project-link" href="#">Voir le projet</a>
+          </div>
+        </article>
+        <article class="project-card glass fade-scroll">
+          <img src="exemple.png" alt="Projet 3" />
+          <div class="project-body">
+            <h3>Futur emplacement</h3>
+            <p class="muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <a class="btn project-link" href="#">Voir le projet</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    © <span id="year"></span> LOCYZZ — Tous droits réservés.
+  </footer>
+  <script>
+    // Mode clair/sombre persistant
+    const root = document.documentElement;
+    const checkbox = document.getElementById('themeCheckbox');
+    const checkboxMobile = document.getElementById('themeCheckboxMobile');
+    const saved = localStorage.getItem('theme') || 'dark';
+    root.setAttribute('data-theme', saved);
+    checkbox.checked = saved === 'light';
+    checkboxMobile.checked = saved === 'light';
+
+    function updateTheme(checkbox) {
+      const theme = checkbox.checked ? 'light' : 'dark';
+      root.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+    }
+
+    checkbox.addEventListener('change', () => updateTheme(checkbox));
+    checkboxMobile.addEventListener('change', () => updateTheme(checkboxMobile));
+
+    // Année footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // Animations au scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.2 });
+    document.querySelectorAll('.fade-scroll').forEach(el => observer.observe(el));
+    // Menu hamburger
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('open');
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
