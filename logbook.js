@@ -78,7 +78,7 @@ const libraryData = [
 {title: "SOS Fantômes", type: "Film", year: 1984, rating: 4, comment: "", image: "https://fr.web.img3.acsta.net/medias/nmedia/18/63/95/37/19681642.jpg", category: "films"},
 {title: "SOS Fantômes 2", type: "Film", year: 1989, rating: 4, comment: "", image: "https://www.sonypictures.ca/sites/canada/files/2024-05/DP_6037682_Ghostbusters2_1989_EST_2000x3000_CAN-FR_1333x2000_thumbnail.jpg", category: "films"},
 {title: "SOS Fantômes : L'Héritage", type: "Film", year: 2021, rating: 5, comment: "", image: "https://www.sonypictures.fr/sites/france2/files/2022-03/SOSF-affiche-450x600.jpg", category: "films"},
-{title: "SOS Fantômes : La Menace de Glace", type: "Film", year: 2022, rating: 5, comment: "https://fr.web.img6.acsta.net/pictures/24/02/23/09/52/1147009.jpg", image: "", category: "films"},
+{title: "SOS Fantômes : La Menace de Glace", type: "Film", year: 2022, rating: 5, comment: "", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AmgNZ3_cLbQsPOkXvLLJwyis4ZHGoF54gg&s", category: "films"},
 {title: "Wonka", type: "Film", year: 2023, rating: 5, comment: "", image: "https://fr.web.img4.acsta.net/pictures/23/12/05/14/56/1249162.jpg", category: "films"},
 {title: "Aquaman", type: "Film", year: 2018, rating: 3, comment: "", image: "https://fr.web.img6.acsta.net/pictures/18/12/13/12/12/2738771.jpg", category: "films"},
 {title: "Les Aventuriers de l'arche perdue", type: "Film", year: 1981, rating: 5, comment: "", image: "https://fr.web.img4.acsta.net/medias/nmedia/00/02/49/18/affiche.jpg", category: "films"},
@@ -326,3 +326,4 @@ if (typeof libraryData === 'undefined') {
 }
 renderLibrary(libraryData);
 });
+
