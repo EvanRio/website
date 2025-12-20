@@ -185,6 +185,10 @@ const libraryData = [
 {title: "Farming Simulator 22", type: "Jeu", year: 2021, rating: 3, comment: "", image: "https://cdn1.epicgames.com/salesEvent/salesEvent/725818d8-9768-4a6a-a723-3039aaee1e23_1200x1600-3b6116d3fc1b566b71251d04bce27938", category: "jeux"},
 {title: "Gang Beasts", type: "Jeu", year: 2014, rating: 4, comment: "", image: "https://media.senscritique.com/media/000020995012/150/gang_beasts.png", category: "jeux"},
 {title: "Valorant", type: "Jeu", year: 2020, rating: 4, comment: "", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv8zdT9tgQOQwqY0MN2ZtpFeqw55LwkKFNvA&s", category: "jeux"},
+{title: "A Way Out", type: "Jeu", year: 2018, rating: null, comment: "", image: "https://smartcdkeys.com/image/data/products/A-Way-Out/cover/A-Way-Out-smartcdkeys-cheap-cd-key-cover.jpg", category: "jeux"},
+{title: "It Takes Two", type: "Jeu", year: 2021, rating: null, comment: "", image: "https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/IjqyQi0J2PL7GdEo3K8jKWMh.png", category: "jeux"},
+{title: "Portal", type: "Jeu", year: 2007, rating: null, comment: "", image: "https://data.xxlgamer.com/products/3638/oqjASpsnbLeDmY-big.jpg", category: "jeux"},
+{title: "Portal 2", type: "Jeu", year: 2011, rating: null, comment: "", image: "https://m.media-amazon.com/images/I/811ZPN+7KML._AC_UF1000,1000_QL80_.jpg", category: "jeux"},
 
 // LIVRES
 {title: "Seul Tome 1 - La disparition", type: "Livre", year: 2006, rating: 5, comment: "", image: "https://static.fnac-static.com/multimedia/Images/FR/NR/2d/f5/1a/1766701/1507-1/tsp20141003094538/La-disparition.jpg", category: "livres"},
@@ -219,62 +223,45 @@ const libraryData = [
 {title: "Minecraft – Le monument au fond de l’océan Tome 2", type: "Livre", year: 2021, rating: 5, comment: "", image: "https://www.bdweb.fr/images/photolib/370x520c/519711/519711.jpg", category: "livres"},
 {title: "Minecraft – Portail vers l’inconnu Tome 3", type: "Livre", year: 2022, rating: 5, comment: "", image: "https://www.bdweb.fr/images/photolib/370x520c/518806/518806.jpg", category: "livres"},
 {title: "Minecraft – Histoires en blocs", type: "Livre", year: 2020, rating: 4, comment: "", image: "https://www.bdweb.fr/images/photolib/370x520c/261742/261742.jpg", category: "livres"},
-// ===== FUZE & DIDIER =====
-{title: "Fuze et Didier Tome 1", type: "Livre", year: 2019, rating: 4, comment: "", image: "", category: "livres"},
-{title: "Fuze et Didier Tome 2", type: "Livre", year: 2020, rating: 4, comment: "", image: "", category: "livres"},
-{title: "Fuze et Didier Tome 3", type: "Livre", year: 2020, rating: 4, comment: "", image: "", category: "livres"},
-{title: "Fuze et Didier Tome 4", type: "Livre", year: 2021, rating: 4, comment: "", image: "", category: "livres"},
-{title: "Fuze et Didier Tome 5", type: "Livre", year: 2022, rating: 4, comment: "", image: "", category: "livres"},
-{title: "Fuze et Didier Tome 6", type: "Livre", year: 2023, rating: 4, comment: "", image: "", category: "livres"},
-
-// ===== AUTRES BD =====
-{title: "Team Craft face au Tri-Enderdragon", type: "Livre", year: 2019, rating: 3, comment: "", image: "", category: "livres"},
-
-// ===== ROMANS MINECRAFT =====
-{title: "Chroniques de l’Épée de Bois Tome 1", type: "Livre", year: 2015, rating: 5, comment: "", image: "", category: "livres"},
-{title: "Chroniques de l’Épée de Bois Tome 2", type: "Livre", year: 2015, rating: 5, comment: "", image: "", category: "livres"},
-{title: "Chroniques de l’Épée de Bois Tome 3", type: "Livre", year: 2016, rating: 5, comment: "", image: "", category: "livres"},
-{title: "Chroniques de l’Épée de Bois Tome 4", type: "Livre", year: 2016, rating: 5, comment: "", image: "", category: "livres"},
-{title: "Chroniques de l’Épée de Bois Tome 5", type: "Livre", year: 2017, rating: 5, comment: "", image: "", category: "livres"},
-{title: "Chroniques de l’Épée de Bois Tome 6", type: "Livre", year: 2017, rating: 5, comment: "", image: "", category: "livres"},
-
-{title: "Chroniques de l’Épée de Pierre Tome 1", type: "Livre", year: 2018, rating: 5, comment: "", image: "", category: "livres"},
-{title: "Chroniques de l’Épée de Pierre Tome 2", type: "Livre", year: 2019, rating: 5, comment: "", image: "", category: "livres"},
-
-{title: "Journal d’un Noob – Intégrale Volume 1", type: "Livre", year: 2016, rating: 5, comment: "", image: "", category: "livres"},
-{title: "Journal d’un Noob – Intégrale Volume 2", type: "Livre", year: 2018, rating: 5, comment: "", image: "", category: "livres"},
-
-// ===== DIVERS =====
-{title: "Les disparus de l’île aux Moines – Vick et Vicky", type: "Livre", year: 2014, rating: 5, comment: "", image: "", category: "livres"},
-
-{title: "Toto Tome 2", type: "Livre", year: 2005, rating: 4, comment: "", image: "", category: "livres"},
-{title: "Toto Tome 5", type: "Livre", year: 2008, rating: 4, comment: "", image: "", category: "livres"},
-{title: "Toto Tome 6", type: "Livre", year: 2009, rating: 4, comment: "", image: "", category: "livres"},
-{title: "Toto Tome 10", type: "Livre", year: 2014, rating: 4, comment: "", image: "", category: "livres"},
-{title: "Toto – Le carnet", type: "Livre", year: 2016, rating: 4, comment: "", image: "", category: "livres"},
-
-{title: "Les Légendaires Parodia Tome 1", type: "Livre", year: 2015, rating: 5, comment: "Magnifique, les easter eggs dans la BD", image: "", category: "livres"},
-{title: "Le Collège Tome 3", type: "Livre", year: 2019, rating: 5, comment: "", image: "", category: "livres"},
-{title: "Chocapic présente les aventures de Pico", type: "Livre", year: 2012, rating: 4, comment: "", image: "", category: "livres"},
-{title: "5 Mondes – Le Guerrier de sable Tome 1", type: "Livre", year: 2017, rating: 4, comment: "", image: "", category: "livres"},
-{title: "Le Grand Méchant Renard", type: "Livre", year: 2015, rating: 4, comment: "", image: "", category: "livres"},
-
-{title: "Frigiel et Fluffy Roman 1", type: "Livre", year: 2016, rating: 2, comment: "", image: "", category: "livres"},
-{title: "Frigiel et Fluffy Roman 2", type: "Livre", year: 2017, rating: 2, comment: "", image: "", category: "livres"},
-{title: "Frigiel et Fluffy Roman 4", type: "Livre", year: 2019, rating: 2, comment: "", image: "", category: "livres"},
-
-// ===== MANGAS =====
-{title: "Pokémon – La grande aventure Tome 1", type: "Livre", year: 1997, rating: 5, comment: "", image: "", category: "livres"},
-{title: "Pokémon Soleil et Lune Tome 1", type: "Livre", year: 2017, rating: 4, comment: "", image: "", category: "livres"},
-{title: "Pokémon Soleil et Lune Tome 2", type: "Livre", year: 2018, rating: 4, comment: "", image: "", category: "livres"},
-{title: "Pokémon Instinct Tome 1", type: "Livre", year: 2020, rating: null, comment: "", image: "", category: "livres"},
-{title: "Pokémon Instinct Tome 2", type: "Livre", year: 2021, rating: null, comment: "", image: "", category: "livres"},
-
-// ===== SANS NOTE =====
-{title: "Le guide de l’urbex – Juj Urbex", type: "Livre", year: 2022, rating: null, comment: "", image: "", category: "livres"},
-{title: "Le journal de Samuel", type: "Livre", year: 2021, rating: null, comment: "", image: "", category: "livres"},
-{title: "Hugo Décrypte en Russie", type: "Livre", year: 2023, rating: null, comment: "", image: "", category: "livres"},
-
+{title: "Fuze et Didier Tome 1", type: "Livre", year: 2021, rating: 4, comment: "", image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRqe8eWjHy4qJc0-YaAxY7zOAYR2HrFTLSgYMkS9Sk-fnkJCEIr6Eva9vDP84TODyl41zcGpmOg3y5GavotCfSYl081zUCqTOp8tmnVLaiy", category: "livres"},
+{title: "Fuze et Didier Tome 2", type: "Livre", year: 2022, rating: 4, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/81_9782302096707_1_75.jpg", category: "livres"},
+{title: "Fuze et Didier Tome 3", type: "Livre", year: 2022, rating: 4, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/26_9782302097568_1_75.jpg", category: "livres"},
+{title: "Fuze et Didier Tome 4", type: "Livre", year: 2023, rating: 4, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/72_9782302099265_1_75.jpg", category: "livres"},
+{title: "Fuze et Didier Tome 5", type: "Livre", year: 2023, rating: 4, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/19_9782302099371_1_75.jpg", category: "livres"},
+{title: "Fuze et Didier Tome 6", type: "Livre", year: 2024, rating: 4, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/8_9782302102446_1_75.jpg", category: "livres"},
+{title: "Team Craft face au Tri-Enderdragon", type: "Livre", year: 2023, rating: 3, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/56_9782302099166_1_75.jpg", category: "livres"},
+{title: "Chroniques de l’Épée de Bois Tome 1", type: "Livre", year: 2019, rating: 5, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/74_9782075129152_1_75.jpg", category: "livres"},
+{title: "Chroniques de l’Épée de Bois Tome 2", type: "Livre", year: 2019, rating: 5, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/39_9782075129169_1_75.jpg", category: "livres"},
+{title: "Chroniques de l’Épée de Bois Tome 3", type: "Livre", year: 2020, rating: 5, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/22_9782075140270_1_75.jpg", category: "livres"},
+{title: "Chroniques de l’Épée de Bois Tome 4", type: "Livre", year: 2021, rating: 5, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/1_9782075146388_1_75.jpg", category: "livres"},
+{title: "Chroniques de l’Épée de Bois Tome 5", type: "Livre", year: 2021, rating: 5, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/74_9782075152822_1_75.jpg", category: "livres"},
+{title: "Chroniques de l’Épée de Bois Tome 6", type: "Livre", year: 2021, rating: 5, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/30_9782075158930_1_75.jpg", category: "livres"},
+{title: "Chroniques de l’Épée de Pierre Tome 1", type: "Livre", year: 2022, rating: 5, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/31_9782075166140_1_75.jpg", category: "livres"},
+{title: "Chroniques de l’Épée de Pierre Tome 2", type: "Livre", year: 2022, rating: 5, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/52_9782075173438_1_75.jpg", category: "livres"},
+{title: "Journal d’un Noob – Intégrale Volume 1", type: "Livre", year: 2019, rating: 5, comment: "", image: "jn1.png", category: "livres"},
+{title: "Journal d’un Noob – Intégrale Volume 2", type: "Livre", year: 2019, rating: 5, comment: "", image: "jn2.jpg", category: "livres"},
+{title: "Les disparus de l’île aux Moines – Vick et Vicky", type: "Livre", year: 1997, rating: 5, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/47_9782373730517_1_75.jpg", category: "livres"},
+{title: "Toto Tome 2", type: "Livre", year: 2004, rating: 4, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/10_9782847895131_1_75.jpg", category: "livres"},
+{title: "Toto Tome 5", type: "Livre", year: 2007, rating: 4, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/31_9782756005683_1_75.jpg", category: "livres"},
+{title: "Toto Tome 6", type: "Livre", year: 2008, rating: 4, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/4_9782756011745_1_75.jpg", category: "livres"},
+{title: "Toto Tome 10", type: "Livre", year: 2013, rating: 4, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/25_9782756027951_1_75.jpg", category: "livres"},
+{title: "Toto HS Le Carnet dénote", type: "Livre", year: 2018, rating: 4, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/9_9782413009245_1_75.jpg", category: "livres"},
+{title: "Les Légendaires Parodia Tome 1", type: "Livre", year: 2016, rating: 5, comment: "Magnifique, les easter eggs dans la BD", image: "https://static.fnac-static.com/multimedia/Images/FR/NR/45/26/76/7743045/1507-1/tsp20230602083948/Les-Legendaires-Parodia-T01.jpg", category: "livres"},
+{title: "Le Collège Noir - Le livre de la neige Tome 03", type: "Livre", year: 2019, rating: 5, comment: "", image: "https://static.fnac-static.com/multimedia/PE/Images/FR/NR/93/c2/a4/10797715/1507-1/tsp20241030083412/Le-college-noir-Tome-03.jpg", category: "livres"},
+{title: "Les Aventures de Pico, Tome 2 : Pico au pays des samouraïs", type: "Livre", year: 1994, rating: 4, comment: "", image: "https://cdn1.booknode.com/book_cover/5061/full/les-aventures-de-pico-tome-2-pico-au-pays-des-samourais-5061323.jpg", category: "livres"},
+{title: "5 Mondes – Le Guerrier de sable Tome 1", type: "Livre", year: 2017, rating: 4, comment: "", image: "https://static.fnac-static.com/multimedia/PE/Images/FR/NR/41/c3/7f/8373057/1507-1/tsp20251107075004/5-Mondes.jpg", category: "livres"},
+{title: "Le Grand Méchant Renard", type: "Livre", year: 2015, rating: 4, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/5_9782756051246_1_75.jpg", category: "livres"},
+{title: "Frigiel et Fluffy - tome 1 Les trois clans", type: "Livre", year: 2018, rating: 2, comment: "", image: "https://static.fnac-static.com/multimedia/PE/Images/FR/NR/3e/1f/9c/10231614/1507-1/tsp20251025080623/Frigiel-et-Fluffy-tome-1-Les-trois-clans.jpg", category: "livres"},
+{title: "Frigiel et Fluffy Roman 2", type: "Livre", year: 2019, rating: 2, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/12_9782375541210_1_75.jpg", category: "livres"},
+{title: "Frigiel et Fluffy Roman 4", type: "Livre", year: 2018, rating: 2, comment: "", image: "https://cdn.cultura.com/cdn-cgi/image/width=1280/media/pim/TITELIVE/10_9782375541173_1_75.jpg", category: "livres"},
+{title: "Pokémon – La grande aventure Tome 1", type: "Livre", year: 2014, rating: 5, comment: "", image: "https://static.fnac-static.com/multimedia/PE/Images/FR/NR/5a/95/58/5805402/1507-1/tsp20251108081031/Pokemon-La-Grande-Aventure-tome-1.jpg", category: "livres"},
+{title: "Pokémon Soleil et Lune Tome 1", type: "Livre", year: 2017, rating: 4, comment: "", image: "https://static.fnac-static.com/multimedia/PE/Images/FR/NR/90/b2/88/8958608/1507-1/tsp20251111073837/Pokemon-Soleil-et-Lune-tome-1.jpg", category: "livres"},
+{title: "Pokémon Soleil et Lune Tome 2", type: "Livre", year: 2018, rating: 4, comment: "", image: "https://static.fnac-static.com/multimedia/PE/Images/FR/NR/db/89/91/9538011/1507-1/tsp20251206072345/Pokemon-Soleil-et-Lune-tome-2.jpg", category: "livres"},
+{title: "Instinct Tome 1", type: "Livre", year: 2024, rating: null, comment: "", image: "https://static.fnac-static.com/multimedia/PE/Images/FR/NR/59/3c/14/18103385/1507-1/tsp20251210073158/Instinct-Tome-1.jpg", category: "livres"},
+{title: "Instinct Tome 2", type: "Livre", year: 2025, rating: null, comment: "", image: "https://static.fnac-static.com/multimedia/PE/Images/FR/NR/49/c7/22/19056457/1507-1/tsp20251203075852/Instinct-Tome-2.jpg", category: "livres"},
+{title: "Le guide de l’urbex – Juj Urbex", type: "Livre", year: 2025, rating: null, comment: "", image: "https://static.fnac-static.com/multimedia/PE/Images/FR/NR/98/2d/22/19017112/1507-1/tsp20251121081251/Le-guide-de-l-urbex.jpg", category: "livres"},
+{title: "Le journal de Samuel", type: "Livre", year: 2025, rating: null, comment: "", image: "https://static.fnac-static.com/multimedia/PE/Images/FR/NR/8e/7b/1e/18774926/1507-1/tsp20250910073941/Le-Journal-de-Samuel.jpg", category: "livres"},
+{title: "Hugo Décrypte en Russie", type: "Livre", year: 2025, rating: null, comment: "", image: "https://static.fnac-static.com/multimedia/PE/Images/FR/NR/98/c6/22/19056280/1507-1/tsp20251218080543/HugoDecrypte-en-Ruie.jpg", category: "livres"},
 ];
 
 
