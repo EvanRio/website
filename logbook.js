@@ -162,6 +162,12 @@ const libraryData = [
 {title: "Encanto", type: "Film", year: 2021, rating: 3, comment: "", image: "https://fr.web.img5.acsta.net/c_310_420/pictures/21/09/29/10/15/0378531.jpg", category: "films"},
 {title: "Rio", type: "Film", year: 2011, rating: 5, comment: "", image: "https://fr.web.img5.acsta.net/c_310_420/medias/nmedia/18/78/25/22/19699752.jpg", category: "films"},
 {title: "Rio 2", type: "Film", year: 2014, rating: 5, comment: "", image: "https://fr.web.img6.acsta.net/c_310_420/pictures/13/12/09/12/44/212843.jpg", category: "films"},
+{title: "Le Pôle Express", type: "Film", year: 2004, rating: 5, comment: "", image: "https://fr.web.img3.acsta.net/medias/nmedia/18/35/31/37/18396720.jpg", category: "films"},
+{title: "Babysitting", type: "Film", year: 2014, rating: 4, comment: "", image: "https://fr.web.img5.acsta.net/c_310_420/pictures/14/01/22/09/59/509268.jpg", category: "films"},
+{title: "Babysitting 2", type: "Film", year: 2015, rating: 4, comment: "", image: "https://fr.web.img3.acsta.net/pictures/15/09/17/09/04/599783.jpg", category: "films"},
+{title: "Bee Movie : Drôle d'abeille", type: "Film", year: 2007, rating: 5, comment: "", image: "https://fr.web.img6.acsta.net/medias/nmedia/18/36/06/79/18807204.jpg", category: "films"},
+{title: "Submersion", type: "Film", year: 2025, rating: 4, comment: "", image: "https://fr.web.img6.acsta.net/img/ff/11/ff115217ebe8b8c97a6682390bc4d160.jpg", category: "films"},
+
 
 // SERIES
 {title: "Sweet Tooth", type: "Série", year: 2021, rating: 5, comment: "L'une des premières séries que j'ai pu regarder, un grand coup de cœur", image: "https://fr.web.img4.acsta.net/pictures/21/05/17/17/15/1119525.jpg", category: "series"},
