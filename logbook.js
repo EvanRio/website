@@ -193,7 +193,7 @@ const libraryData = [
 {title: "Valorant", type: "Jeu", year: 2020, rating: 4, comment: "", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv8zdT9tgQOQwqY0MN2ZtpFeqw55LwkKFNvA&s", category: "jeux"},
 {title: "A Way Out", type: "Jeu", year: 2018, rating: null, comment: "", image: "https://smartcdkeys.com/image/data/products/A-Way-Out/cover/A-Way-Out-smartcdkeys-cheap-cd-key-cover.jpg", category: "jeux"},
 {title: "It Takes Two", type: "Jeu", year: 2021, rating: null, comment: "", image: "https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/IjqyQi0J2PL7GdEo3K8jKWMh.png", category: "jeux"},
-{title: "Portal", type: "Jeu", year: 2007, rating: null, comment: "", image: "https://data.xxlgamer.com/products/3638/oqjASpsnbLeDmY-big.jpg", category: "jeux"},
+{title: "Portal", type: "Jeu", year: 2007, rating: 5, comment: "J'ai vraiment adoré le jeu et l'histoire", image: "https://data.xxlgamer.com/products/3638/oqjASpsnbLeDmY-big.jpg", category: "jeux"},
 {title: "Portal 2", type: "Jeu", year: 2011, rating: null, comment: "", image: "https://m.media-amazon.com/images/I/811ZPN+7KML._AC_UF1000,1000_QL80_.jpg", category: "jeux"},
 
 // LIVRES
@@ -396,3 +396,4 @@ if (typeof libraryData === 'undefined') {
 }
 renderLibrary(libraryData);
 });
+
